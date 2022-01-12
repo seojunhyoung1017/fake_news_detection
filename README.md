@@ -27,35 +27,10 @@ Choosing a metric to evaluate the model is dependent on the situation and datase
 |  | Accuracy | Precision | Recall | F1 Score |
 | --- | --- | --- | --- | --- |
 |Logistic Regression (L1) | 0.993 | 0.990 | 0.995 | 0.993 |
-Accuracy
-Precision
-Recall
-F1 Score
-Logistic Regression (L1)
-0.993
-0.990
-0.995
-0.993
-Logistic Regression (L2)
-0.987
-0.983
-0.990
-0.987
-Random Forest
-0.936
-0.984
-0.882
-0.930
-KNN
-0.644
-0.960
-0.272
-0.424
-SVM
-0.994
-0.994
-0.995
-0.994
+| Logistic Regression (L2) | 0.987 | 0.983 | 0.990 | 0.987 |
+| Random Forest | 0.936 | 0.984 | 0.882 | 0.930 |
+| KNN | 0.644 | 0.960 | 0.272 | 0.424 |
+| SVM | 0.994 | 0.994 | 0.995 | 0.994 |
 
 Looking at the above table of the different machine learning algorithms, we can see the results after running each model on the test set. Each one was measured on several different metrics, since each individual metrics alone does not tell the whole story. We measured accuracy, precision, recall, and the F1-score, as well as the confusion matrix for each.
 Several algorithms perform very well in detecting fake articles. Both the support vector classifier as well as logistic regression with L1 penalty correctly discerned between real and fake articles over 99.3% of the time when presented with the test set, which is by far the best accuracy of all of the models. Logistic regression with L2 penalty did slightly worse (98.7%), as did the random forest classifier (93.6). The K-nearest neighbors model is the only one that performed quite poorly, with a dismal accuracy of 64.4%. This trend is actually consistent between all of the metrics. The support vector classifier and the logistic regression with L1 penalty have the two highest precisions, recalls, and F1 scores as well, with the random forest classifier and logistic regression with L2 penalty close behind, and the KNN model performing the worst.
