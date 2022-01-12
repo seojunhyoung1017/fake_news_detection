@@ -24,7 +24,9 @@ The models that we have used for training and testing are: logistic regression (
 For each classification type, we subjected the model to trial and error to find the ideal parameters. The ideal parameters are the ones that classify the test set with the highest accuracy, precision, recall, and F1 score. For example, the ideal parameters for the logistic regression are found by altering the beta coefficients and finding which model provides the best evaluation metrics. The same process is done with the random forest (and finding ideal depth), k-nearest neighbors (finding ideal k-neighbors), and SVM (finding ideal margin). The parameters written in parentheses next to the algorithms above were optimal values for the respective models.
 Choosing a metric to evaluate the model is dependent on the situation and datasets. Accuracy is used when the True Positives and True Negatives are more important while F1-score is used when the False Negatives and False Positives are crucial. Therefore, we must consider which metric we are most interested in using to evaluate the validity of our model. There is room for more research in regards to this problem’s preferred metric, preferably from domain experts.
 
-
+|  | Accuracy | Precision | Recall | F1 Score |
+| --- | --- | --- | --- | --- |
+|Logistic Regression (L1) | 0.993 | 0.990 | 0.995 | 0.993 |
 Accuracy
 Precision
 Recall
