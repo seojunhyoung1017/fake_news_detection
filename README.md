@@ -1,4 +1,5 @@
 # Fake news detection with machine learning
+
     Problem Definition
 In the information age of today, it is easier for consumers to access information and media than ever before. Technological advancements have enhanced the speed and range of information distribution but a trade-off exists between the quantity and quality of accessible information. Misleading information and propaganda have been problems since the beginning of print media, but social media engagement has made “fake news” a bigger issue than it has ever been. Wrong information has wide ranging implications for the consumer and society as whole, as it can misguide personal beliefs, paint people in a bad light, promote conspiracy theories, and overall lead to misjudgment and political polarization. To improve the way that news consumers can discern what is accurate information and what is fake news, we are in need of a model to efficiently classify news depending on the contents of the article that a reader could utilize.
 
