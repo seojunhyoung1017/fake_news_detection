@@ -65,25 +65,25 @@ Ways to extend the project could be to optimize hyperparameters using methods su
 
     References
 Abu-Nimeh, S., Chen, T., Alzubi, O. (2011). Malicious and spam posts in online social networks. Computer 44, 23–28. doi:10.1109/MC. 2011.222
-#Appropriate article to check out how vulnerable the users in social media can be exposed to malicious posts and what it entails for social media users
+- Appropriate article to check out how vulnerable the users in social media can be exposed to malicious posts and what it entails for social media users
 
 Ahmad, I., Yousaf, M., Yousaf, S., Ahmad, M. (2020). Fake News Detection Using Machine Learning Ensemble Methods. Complexity, vol. 2020, Article ID 8885861, 11 pages, 2020. https://doi.org/10.1155/2020/8885861
-Another fake news detection project from 2020 that used a variety of ML algorithms.
+- Another fake news detection project from 2020 that used a variety of ML algorithms.
 
 Allcott, Hunt, Gentzkow. (2017). Social Media and Fake News in the 2016 Election. Journal of Economic Perspectives, 31 (2): 211-36. doi: 10.1257/jep.31.2.211
-Discusses the prevalence of fake news as of recent times, in the digital age and the 2016 election, and demonstrates the real-life implications of misinformation
+- Discusses the prevalence of fake news as of recent times, in the digital age and the 2016 election, and demonstrates the real-life implications of misinformation
 
 Aphiwongsophon, S. and Chongstitvatana, P. (2018). Detecting Fake News with Machine Learning Method. 2018 15th International Conference on Electrical Engineering/Electronics, Computer, Telecommunications and Information Technology (ECTI-CON), 2018, pp. 528-531, doi: 10.1109/ECTICon.2018.8620051.
-Researchers performed a similar project to the one we created, using Naive Bayes, Neural Network and Support Vector Machine classification.
+- Researchers performed a similar project to the one we created, using Naive Bayes, Neural Network and Support Vector Machine classification
 
 Bisaillon, C. (2019). Fake and real news dataset: classifying the news. Kaggle. https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset
-Kaggle source for the dataset of real and fake news that we used to build our models.
+- Kaggle source for the dataset of real and fake news that we used to build our models.
 
 Havrlant, L. and Kreinovich, V. (2017). A simple probabilistic explanation of term frequency-inverse document frequency (tf-idf) heuristic (and variations motivated by this explanation), International Journal of General Systems, 46:1, 27-36, DOI: 10.1080/03081079.2017.1291635
-A very good article on the tf-idf heuristic and how to effectively utilize it in a document analysis problem
+- A very good article on the tf-idf heuristic and how to effectively utilize it in a document analysis problem
 
 Nasir, J., Khan, O., Varlamis, I. (2021). Fake news detection: A hybrid CNN-RNN based deep learning approach. International Journal of Information Management Data Insights, Volume 1, Issue 1, 2021, 100007, ISSN 2667-0968. https://doi.org/10.1016/j.jjimei.2020.100007.
-Research paper discussing automatic detection techniques based on artificial intelligence and machine learning for fake news detection. A bit out of scope of our own project, since it deals with a novel hybrid deep learning model with convolutional and recurrent neural networks, but interesting to see room for further experimentation beyond our work.
+- Research paper discussing automatic detection techniques based on artificial intelligence and machine learning for fake news detection. A bit out of scope of our own project, since it deals with a novel hybrid deep learning model with convolutional and recurrent neural networks, but interesting to see room for further experimentation beyond our work.
 
 Paialunga, P. (5 May 2021). Fake News Detection with Machine Learning, using Python: A step by step Fake News detection using BERT, TensorFlow and PyCaret. Towards Data Science. https://towardsdatascience.com/fake-news-detection-with-machine-learning-using-python-3347d9899ad1.
-A very informative guide with examples on how to code a project of this type,  including which libraries are needed and which methods to use.
+- A very informative guide with examples on how to code a project of this type,  including which libraries are needed and which methods to use.
